@@ -10,7 +10,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "goweb"
-	app.Usage = "Simple file web server"
+	app.Usage = "Simple directory web server"
 	app.Version = "1.0.0"
 	var addr string = ":8080"
 	var dir string = "."
